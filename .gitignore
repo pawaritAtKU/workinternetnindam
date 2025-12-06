@@ -1,0 +1,42 @@
+# Logs
+*.log
+debug*.log
+debug*.txt
+
+# Uploads (keep structure but ignore files)
+uploads/*
+!uploads/.gitkeep
+api/uploads/*
+!api/uploads/.gitkeep
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+vendor/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test files
+test*.html
+test*.php
+
+# Installers
+*.msi
+*.exe
+
+# PDFs (if not needed)
+*.pdf
+
